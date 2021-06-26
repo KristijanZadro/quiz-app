@@ -1,0 +1,116 @@
+
+
+.incorrect{
+    background-color: rgb(238, 92, 92) !important;
+}
+.correct{
+    background-color: rgb(116, 202, 116) !important;
+}
+
+.App{
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nazad{
+    width: 100px;
+    background-color: grey;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+.nazad:hover{
+    background-color: #aaa;
+}
+
+.kvizNaslov{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 30px auto;
+}
+.kategorija{
+    margin: 10px auto;
+    padding: 10px 0;
+    background-color: lightslategray;
+    font-size: 20px;
+    width: 250px;
+}
+.kategorija:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+.pitanje{
+    margin: 30px 0;
+}
+.slovoPitanja{
+    display: flex;
+    min-width: 35px;
+    min-height: 35px;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(106, 106, 226);
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.odgovor{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+.odgovor:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+.odgovor p{
+    white-space: pre-wrap;
+}
+.pitanjeNaslov{
+    background-color: lightslategray;
+    height: fit-content;
+    padding: 15px 10px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    white-space: pre-wrap;
+    text-align: left;
+}
+.rezultati{
+background-color: rgb(153, 189, 224);
+padding: 20px;
+}
+.rezultati p{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+@media only screen and (max-width: 400px) {
+    .pitanjeNaslov{
+        font-size: 14px;
+    }
+    .odgovor{
+        font-size: 12px;
+    }
+    .rezultati p{
+        font-size: 14px;
+    }
+    
+  }
